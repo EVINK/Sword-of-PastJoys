@@ -1,0 +1,9 @@
+-- 20210811 0.02a
+bug fixed
+
+-- 20210811 0.02
+1. add English supported
+2. add AOE effect
+
+-- 20210811 0.01
+"Sword of PastJoys"
