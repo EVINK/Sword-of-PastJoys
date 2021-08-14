@@ -87,7 +87,7 @@ function __after_target_dead(inst, owner, target)
         lvlup = 1
     elseif lvlup_ways == "moderate" and target_health >= 200 and randint <= 33 then
         lvlup = 1
-    else
+    elseif lvlup_ways == "classic" then
         lvlup = __classical_lvlup(target_health, randint)
     end
 
