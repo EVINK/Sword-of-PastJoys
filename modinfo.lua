@@ -1,5 +1,5 @@
 author = "EvinK"
-version = "0.0.2b"
+version = "0.0.2c"
 name = "辞欢+"
 description = [["辞欢+"基于DST模组【辞欢】而创作，本模组提供了大量可自定义内容，同时降低辞欢剑升级难度
 

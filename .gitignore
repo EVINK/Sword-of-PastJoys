@@ -3,4 +3,5 @@ anim/
 images/
 mod.manifest
 modicon.*
+exported/
 .DS_Store
