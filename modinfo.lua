@@ -1,6 +1,6 @@
 author = "EvinK"
 version = "0.0.2c"
-name = "辞欢+"
+name = "辞欢+ 单人版"
 description = [["辞欢+"基于DST模组【辞欢】而创作，本模组提供了大量可自定义内容，同时降低辞欢剑升级难度
 
 希望你喜欢 ：）
@@ -9,25 +9,17 @@ description = [["辞欢+"基于DST模组【辞欢】而创作，本模组提供�
 
 forumthread = ""
 
-dst_compatible = true --兼容联机
-dont_starve_compatible = false --不兼容单机
-reign_of_giants_compatible = false --不兼容巨人
-all_clients_require_mod = true --所有人mod
+api_version = 6 -- for don't starve
 
-api_version = 10
+-- Compatibility
+dont_starve_compatible = true
+reign_of_giants_compatible = true
+shipwrecked_compatible = true
 
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 
-server_filter_tags = {"cihuan"} --服务器标签可以不写
-
-local lang =
-	ChooseTranslationTable(
-	{
-		"English",
-		["zh"] = "Chinese"
-	}
-)
+local lang = "Chinese"
 
 configuration_options = {}
 
